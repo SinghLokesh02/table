@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  border: 0.01px solid rgba(0, 0, 0, 0.272);
+  border-collapse: collapse;
+}
+table td {
+  border-bottom: 0.01px solid rgba(67, 66, 66, 0.636);
+  height: 30px;
+  padding: 8px 40px;
+  font-size: 10px;
+  margin-left: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.first td i {
+  margin: 0px 5px 0px 5px;
+}
+
+.fa-solid {
+  visibility: hidden;
+}
+
+td:hover .fa-solid {
+  visibility: visible;
+}
+tr:hover {
+  background-color: rgba(0, 0, 0, 0.10);
+}
