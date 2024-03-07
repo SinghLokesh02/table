@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.container {
+  height: 200px;
+  overflow: scroll;
+}
 table {
   border: 0.01px solid rgba(0, 0, 0, 0.272);
   border-collapse: collapse;
@@ -11,7 +14,7 @@ table {
 table td {
   border-bottom: 0.01px solid rgba(67, 66, 66, 0.636);
   height: 30px;
-  padding: 8px 40px;
+  padding: 8px 20px;
   font-size: 10px;
   margin-left: 20px;
   white-space: nowrap;
@@ -31,5 +34,5 @@ td:hover .fa-solid {
   visibility: visible;
 }
 tr:hover {
-  background-color: rgba(0, 0, 0, 0.10);
+  background-color: rgba(0, 0, 0, 0.1);
 }
